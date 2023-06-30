@@ -1,4 +1,4 @@
 declare module "*.webp" {
-    const value: any;
+    const value: never;
     export = value;
 }
