@@ -1,4 +1,6 @@
 declare module "*.webp" {
-    const value: never;
-    export = value;
+    export default `` as string;
 }
+declare module '*.png' {
+    export default `` as string;
+  }
