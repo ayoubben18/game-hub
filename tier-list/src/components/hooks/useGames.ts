@@ -28,7 +28,8 @@ useInfiniteQuery<FetchResponse<Game>,Error>({
   }}),
   getNextPageParam:(lastPage,allPages)=> {
     return lastPage.next ?  allPages.length+1 : undefined
-}
+},
+staleTime: Infinity 
   
 })
 
