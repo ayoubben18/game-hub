@@ -7,7 +7,7 @@ import {
   Image,
   useStyleConfig,
 } from "@chakra-ui/react";
-import { Game } from "./hooks/useGames";
+import { Game } from "./hooks/Game";
 import PlatformIconList from "./PlatformIconList";
 import CreditScore from "./creditScore";
 import getCroppedImageUrl from "./services/image-url";
